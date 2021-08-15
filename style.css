@@ -1,7 +1,5 @@
 @charset "UTF-8";
 :root {
-  --screen-width: 320px;
-  --screen-height: 560px;
   --header-bg-color: rgba(255, 166, 0, 0.616);
   --splash-bg-color: #b922a0;
 }
