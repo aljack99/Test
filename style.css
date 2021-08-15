@@ -1,8 +1,8 @@
 @charset "UTF-8";
 :root {
-    height: 100%;
-    width: 100%;
-  --header-bg-color: rgba(255, 166, 0, 0.616);
+  --screen-width: 100%;
+  --screen-height: 100%;
+  --header-bg-color: rgba(255, 166, 0);
   --splash-bg-color: #b922a0;
 }
 
@@ -11,9 +11,10 @@
     padding:0;
 }
 
+
 .nav__toggle {
   display: inline-block;
-  position: absolute;
+  position: absolute ;
   z-index: 10;
   padding: 0;
   border: 0;
@@ -56,6 +57,9 @@
 .nav__item:nth-child(5) {
   transform: translateY(-200px);
 }
+.nav__item:nth-child(6) {
+    transform: translateY(-240px);
+  }
 .nav__link {
   color: white;
   display: block;
@@ -174,11 +178,13 @@ body {
 
 .header {
   height: 5rem;
+  position:fixed;
+  width: 100%;
   background-color: var(--header-bg-color);
 }
 
 .main {
-  padding: 20px;
+  padding: 5rem 1rem;
 }
 
 .gallery {
